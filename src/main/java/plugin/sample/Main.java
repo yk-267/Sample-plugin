@@ -74,6 +74,7 @@ public final class Main extends JavaPlugin implements Listener {
     count++;
   }
 
+  //　一つでもアイテムを持ってベッドに入ると64個に増えるプラグイン
   @EventHandler
   public void onPlayerBedEnter(PlayerBedEnterEvent e) {
     Player player = e.getPlayer();
